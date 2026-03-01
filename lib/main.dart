@@ -200,7 +200,7 @@ class _CalculateState extends State<Calculate>{ // приватный класс
             child: Column( // колонка для кнопок
               children: [ // список рядов
                 _buttonRow(['C', '/', '%']),
-                _buttonRow(['7', '8', '9', '×']),
+                _buttonRow(['7', '8', '9', '*']),
                 _buttonRow(['4', '5', '6', '-']),
                 _buttonRow(['1', '2', '3', '+']),
                 _buttonRow(['0', '00', '.', '=']),
